@@ -1,0 +1,16 @@
+<label>Please enter name  </label>
+
+<input type="text" (input)="fun($event)">
+<p></p>
+<button (click)= "gun()">Submit</button>
+
+
+<!--Now we can display that data on page usng string interpolation-->
+<p *ngIf="flag; else noname">{{str}}</p>
+<ng-template #noname>
+    <p>Please select :</p>
+    <P>PPA</P>
+    <p>LB</p>
+    <p>Web </p>
+    <p>OS </p>
+</ng-template>
