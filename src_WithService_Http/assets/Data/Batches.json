@@ -1,0 +1,6 @@
+[
+    {"Name":"Batch-1", "Fees":9000, "Duration":4},
+    {"Name":"Batch-2", "Fees":9000, "Duration":4},
+    {"Name":"Batch-3", "Fees":9000, "Duration":4},
+    {"Name":"Batch-4", "Fees":9000, "Duration":4}
+]
